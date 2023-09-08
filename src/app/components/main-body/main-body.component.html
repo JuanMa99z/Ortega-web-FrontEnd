@@ -1,0 +1,53 @@
+<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" type='text/css'>
+
+<section class="bg-color">
+  <div class="containers">
+    <div class="row">
+      <div class="col-md-3 col-sm-12">
+        <section>
+          <div class="container1">
+            <div class="image">
+              <img class="person1" src="../../../assets/photo 3n.png" (click)="toggleDescription()">
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="col-md-6 col-sm-12">
+        <div class="main-descripcion">
+          <div class="descripcion">
+            <p class="descripción" *ngIf="!showDescription">
+              JUAN ALFREDO <span>ORTEGA</span> <br>
+              <span>67</span> <br>
+              <br>
+              <cite>descripcion</cite><br>
+            </p>
+          </div>
+        </div>
+
+        <div class="main-descripcion">
+          <div class="descripcion">
+            <p class="descripción" *ngIf="showDescription">
+              ERLINDA VALERIA<span>LOPEZ</span> <br>
+              <span>48</span> <br>
+              <br>
+              <cite>descripcion</cite><br>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-12">
+        <section>
+          <div class="container2">
+            <div class="image">
+              <img class="person2" src="../../../assets/photo 3n.png" (click)="toggleDescription()">
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</section>
+
+

@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component, OnInit,} from '@angular/core';
 @Component({
   selector: 'app-title',
   templateUrl: './title.component.html',
@@ -11,9 +10,21 @@ export class TitleComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  url: string = "../../../assets/FnvC5O-XEAMrGmq.jpeg";
+  collage1: string = "../../../assets/photo 1n.png";
     imageChange(event: any){
-        this.url = event.target.src;
+        this.collage1 = event.target.src;
+    }
+    collage2: string = "../../../assets/photo 1g.png";
+    imageChange2(event: any){
+        this.collage2 = event.target.src;
+    }
+    collage3: string = "../../../assets/photo 1h.png";
+    imageChange3(event: any){
+        this.collage3 = event.target.src;
+    }
+    collage4: string = "../../../assets/photo 3h.png";
+    imageChange4(event: any){
+        this.collage4 = event.target.src;
     }
   
 }

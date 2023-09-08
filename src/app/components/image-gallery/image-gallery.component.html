@@ -1,0 +1,30 @@
+<link 
+  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+  rel="stylesheet"  type='text/css'>
+  <section class="bg-color">
+    <div class="title-gallery">
+      <p>Galeria de <span>Certificados</span></p>
+    </div>
+    <div class="image-container">
+      <div class="row">
+        <div class="col-md-2 col-sm-4 col-4" *ngFor="let image of images; let i = index">
+          <img [src]="image.url" (click)="openFullScreen(i)">
+        </div>
+      </div>
+    </div>
+
+    <div class="fullscreen-overlay" [ngClass]="{'active': isFullScreen}">
+      <button type="button" class="btn-close close-button" aria-label="Close" (click)="closeFullScreen()"></button>
+      <div class="image-slider">
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" (click)="changeSlide(-1)">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+        <img [src]="currentImage.url" alt="Imagen en pantalla completa">
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" (click)="changeSlide(1)">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+      </div>
+    </div>
+  </section>

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.bg-color{
+    box-sizing: border-box;
+    background: #c9c9c9;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 3em;
+}
+.containers{
+    width: 95%;
+    margin: 0 auto;
+}
+ .person1{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 2px 3px 20px #6e6e6e;
+    opacity: 0.81;
+    cursor: pointer;
+}
+
+.person1:hover{
+    transform: translateX(15px) translateY(-10px) translateZ(13px);
+    opacity: 1;
+    transition: all .35s ease-in-out 0s;
+    
+}
+.main-descripcion{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+
+.descripcion{
+    position: absolute;
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+    color:#000000 ;
+}
+p{
+    border: 0px;
+    height: 340px;
+    width: 440px;
+    font-size:xx-large;
+
+}
+
+.descripcion span{
+    color: rgb(255, 191, 15);
+    text-shadow: -1.1px 2.5px 1.4px #966c13;
+}
+
+.descripcion cite{
+    font-size: medium;
+    font-family: serif;
+}
+
+.person2{
+    position: relative;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 2px 3px 20px #6e6e6e;
+    opacity: 0.81;
+    cursor: pointer;
+}
+
+
+.person2:hover{
+    transform: translateX(-15px) translateY(-10px) translateZ(-13px);
+    opacity: 1;
+    transition: all .35s ease-in-out 0s;
+}
+
+.card-main{
+    position: relative;
+}
+
+.row{
+    width: 95%;
+    margin: 0 auto;
+}
