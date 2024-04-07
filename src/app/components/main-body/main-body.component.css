@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 .bg-color{
     box-sizing: border-box;
-    background: #c9c9c9;
+    background: #e1effc;
     font-family: 'Roboto', sans-serif;
     padding-top: 3em;
 }
@@ -20,7 +20,7 @@
 .person1:hover{
     transform: translateX(15px) translateY(-10px) translateZ(13px);
     opacity: 1;
-    transition: all .35s ease-in-out 0s;
+    transition: all .35s ease-in 0s;
     
 }
 .main-descripcion{
@@ -68,7 +68,7 @@ p{
 .person2:hover{
     transform: translateX(-15px) translateY(-10px) translateZ(-13px);
     opacity: 1;
-    transition: all .35s ease-in-out 0s;
+    transition: all .35s ease-in 0s;
 }
 
 .card-main{

@@ -10,7 +10,7 @@ export class TitleComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  collage1: string = "../../../assets/photo 1n.png";
+  collage1: string = "../../../assets/photo 1w.webp";
     imageChange(event: any){
         this.collage1 = event.target.src;
     }
@@ -22,7 +22,7 @@ export class TitleComponent implements OnInit {
     imageChange3(event: any){
         this.collage3 = event.target.src;
     }
-    collage4: string = "../../../assets/photo 3h.png";
+    collage4: string = "../../../assets/photo 1m.webp";
     imageChange4(event: any){
         this.collage4 = event.target.src;
     }

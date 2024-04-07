@@ -7,10 +7,16 @@ import { Component } from '@angular/core';
 })
 export class ImageGalleryComponent {
   images = [
-    { url: '../assets/Certificados.webp' },
-    { url: '../assets/Certificados2.webp' },
-    { url: '../assets/Certificados3.webp' },
-    { url: '../assets/Certificados4.webp' },
+    { url: '../assets/Certificado Diploma de Aprovechamiento Formal Azul (1).webp' },
+    { url: '../assets/Certificado Diploma de Aprovechamiento Formal Azul.webp' },
+    { url: '../assets/Certificado Diploma de Aprovechamiento Formal Azul (2).webp' },
+    { url: '../assets/Certificado Diploma de Aprovechamiento Formal Azul (4).webp' },
+    { url: '../assets/Certificado Diploma de Aprovechamiento Formal Azul (5).webp' },
+    { url: '../assets/Certificado Diploma de Aprovechamiento Formal Azul (6).webp' },
+    { url: '../assets/Certificado Diploma de Aprovechamiento Formal Azul (7).webp' },
+    { url: '../assets/Certificado Diploma de Aprovechamiento Formal Azul (8).webp' },
+    { url: '../assets/Certificado Diploma de Aprovechamiento Formal Azul (9).webp' },
+    { url: '../assets/Certificado Diploma de Aprovechamiento Formal Azul(10).webp' },
     // Agrega más imágenes aquí
   ];
 
