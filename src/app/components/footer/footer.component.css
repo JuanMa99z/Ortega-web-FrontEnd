@@ -1,60 +1,7 @@
 .bg-color{
     box-sizing: border-box;
-    background: #e1effc;
+    background: #c9c9c9;
     font-family: 'Roboto', sans-serif;
-    padding-top: 2em;
+    padding-top: 5em;
 }
 
-body {
-    background-color: #f3f6fd;
-    font-size: 13px;
-    font-weight: bold;
-    color: rgb(189, 196, 203)
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0
-}
-
-ul>li {
-    padding: 4px;
-    color:#000000;
-}
-
-ul>li:hover {
-    color:  rgb(255, 191, 15);
-    cursor: pointer
-}
-
-hr {
-    border-width: 3px
-}
-
-.card {
-    padding: 3% 3%
-}
-
-.social>i {
-    padding: 1%;
-    font-size: 15px
-}
-
-.social>i:hover {
-    color:  rgb(255, 191, 15);
-    cursor: pointer
-}
-
-.policy>div {
-    padding: 4px
-}
-
-.heading {
-    font-family: 'Titillium Web', sans-serif;
-    color: black
-}
-
-.divider {
-    border-top: 2px solid
-}
