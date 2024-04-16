@@ -27,7 +27,7 @@ export class TitleComponent implements OnInit {
         this.collage4 = event.target.src;
     }
 
-    images = [];
+    images = [ ];
   
     isFullScreen = false;
     isFullScreen2 = false;
